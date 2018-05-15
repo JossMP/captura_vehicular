@@ -1,5 +1,5 @@
 <?php
-	header('Content-Type: text/plain');
+	header('Content-Type: text/json');
 
 	require ("../src/autoload.php");
 

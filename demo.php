@@ -1,6 +1,5 @@
 <?php
 	// Modo de Uso
-	
 	require_once("src/autoload.php");
 	
 	$test = new \Pit\Pit();

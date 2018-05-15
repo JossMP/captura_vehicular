@@ -113,7 +113,6 @@
 				$("#btn-submit").click(function(e){
 					var $this = $(this);
 					e.preventDefault();
-					//$this.button('loading');
 					$.ajaxblock();
 					$.ajax({
 						data: { "nro" : $("#nroplaca").val() },

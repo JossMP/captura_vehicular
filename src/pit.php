@@ -6,7 +6,7 @@
 		{
 			$this->cc = new cURL();
 			$this->cc->setReferer('http://www.pit.gob.pe/pit2007/Consultas.aspx');
-			$this->cc->setCookiFileLocation( __DIR__ . '/cookie.txt' );
+			//$this->cc->setCookiFileLocation( __DIR__ . '/cookie.txt' );
 		}
 		function check( $placa )
 		{
